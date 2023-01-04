@@ -33,7 +33,7 @@ In case the Elves get hungry and need extra snacks, they need to know which Elf 
 Find the Elf carrying the most Calories. How many total Calories is that Elf carrying? """
 
 
-with open("input", "r") as f:
+with open("input.txt", "r") as f:
     data = f.readlines()
 
 current_max_calories = 0
